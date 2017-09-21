@@ -14,7 +14,6 @@ public static void main(String[] args) {
         //Object Array
         String[] array = {"t", "e", "c", "h", "i", "o"};
 
-
         //Arrays.stream
         Stream<String> stream1 = Arrays.stream(array);
         stream1.forEach(x -> System.out.println(x));
